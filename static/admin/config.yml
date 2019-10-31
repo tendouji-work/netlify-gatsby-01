@@ -28,9 +28,10 @@ collections:
   label: "Subscribers"
   folder: "content/subscriber"
   create: true
-  delete: false
   identifier_field: email
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  editor:
+    preview: false
   fields:
   - {label: "Name", name: "name", widget: "string", required: true}
   - {label: "Email", name: "email", widget: "string", pattern: ['([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}', "Email format invalid"]}
