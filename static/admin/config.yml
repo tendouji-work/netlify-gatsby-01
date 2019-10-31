@@ -9,7 +9,7 @@ publish_mode: editorial_workflow
 
 collections:
 - name: "blog"
-  label: "Blog"
+  label: "News"
   folder: "content/blog"
   create: true
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -23,3 +23,16 @@ collections:
   - {label: "Featured Image", name: "thumbnail", widget: "image"}
   - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
   - {label: "Body", name: "body", widget: "markdown"}
+
+- name: "subscriber"
+  label: "Subscribers"
+  folder: "content/subscriber"
+  create: true
+  delete: false
+  identifier_field: email
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  fields:
+  - {label: "Name", name: "name", widget: "string", required: true}
+  - {label: "Email", name: "email", widget: "string", pattern: ['([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}', "Email format invalid"]}
+  - {label: "Enabled", name: "enabled", widget: "boolean", default: true}
+  - {label: "Created Date", name: "date", widget: "datetime"}
