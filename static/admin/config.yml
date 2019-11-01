@@ -28,12 +28,42 @@ collections:
   label: "Subscribers"
   folder: "content/subscriber"
   create: true
-  identifier_field: email
+  identifier_field: title
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
   editor:
     preview: false
   fields:
+  - {label: "Title", name: "title", widget: "hidden"}
   - {label: "Name", name: "name", widget: "string", required: true}
-  - {label: "Email", name: "email", widget: "string", pattern: ['([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}', "Email format invalid"]}
+  - {label: "Email", name: "email", widget: "string", required: true, pattern: ['([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}', "Email format invalid"]}
   - {label: "Enabled", name: "enabled", widget: "boolean", default: true}
   - {label: "Created Date", name: "date", widget: "datetime"}
+
+- label: "Pages"
+  name: "pages"
+  files:
+  - label: "About Page"
+    name: "about"
+    file: "site/content/about.yml"
+    fields:
+    - {label: Title, name: title, widget: string}
+    - {label: Intro, name: intro, widget: markdown}
+    - label: Team
+      name: team
+      widget: list
+      fields:
+      - {label: Name, name: name, widget: string}
+      - {label: Position, name: position, widget: string}
+      - {label: Photo, name: photo, widget: image}
+  - label: "Locations Page"
+    name: "locations"
+    file: "site/content/locations.yml"
+    fields:
+    - {label: Title, name: title, widget: string}
+    - {label: Intro, name: intro, widget: markdown}
+    - label: Locations
+      name: locations
+      widget: list
+      fields:
+      - {label: Name, name: name, widget: string}
+      - {label: Address, name: address, widget: string}
