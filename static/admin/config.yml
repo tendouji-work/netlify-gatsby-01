@@ -39,31 +39,31 @@ collections:
   - {label: "Enabled", name: "enabled", widget: "boolean", default: true}
   - {label: "Created Date", name: "date", widget: "datetime"}
 
-- label: "Pages"
-  name: "pages"
+- name: "pages"
+  label: "Pages"
   files:
-  - label: "About Page"
+  - label: "About"
     name: "about"
-    file: "site/content/about.yml"
+    file: "content/about.yml"
     fields:
     - {label: Title, name: title, widget: string}
-    - {label: Intro, name: intro, widget: markdown}
-    - label: Team
-      name: team
+    - {label: Description, name: description, widget: markdown}
+    - label: Feature
+      name: feature
       widget: list
       fields:
       - {label: Name, name: name, widget: string}
-      - {label: Position, name: position, widget: string}
+      - {label: Description, name: description, widget: string}
       - {label: Photo, name: photo, widget: image}
-  - label: "Locations Page"
-    name: "locations"
-    file: "site/content/locations.yml"
+  - label: "FAQ"
+    name: "faq"
+    file: "content/faq.yml"
     fields:
     - {label: Title, name: title, widget: string}
-    - {label: Intro, name: intro, widget: markdown}
-    - label: Locations
-      name: locations
+    - {label: Description, name: description, widget: markdown}
+    - label: FAQList
+      name: faqlist
       widget: list
       fields:
-      - {label: Name, name: name, widget: string}
-      - {label: Address, name: address, widget: string}
+      - {label: Question, name: question, widget: string}
+      - {label: Answer, name: answer, widget: string}
