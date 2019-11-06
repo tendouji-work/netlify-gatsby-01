@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d037d1b-c394-47a5-831b-25d0c069386c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/about.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/about.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/assets/gatsby-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/assets/gatsby-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/assets/profile-pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/assets/profile-pic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/blog/2019-10-31-test-blog-post-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/2019-10-31-test-blog-post-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/blog/2019-10-31-test-blog-post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/2019-10-31-test-blog-post-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/blog/2019-10-31-test-blog-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/2019-10-31-test-blog-post.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/faq.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/faq.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/subscriber/2019-10-31-test-subscriber.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/subscriber/2019-10-31-test-subscriber.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/subscriber/2019-10-31-test-test-com.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/subscriber/2019-10-31-test-test-com.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/subscriber/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/subscriber/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/components/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/components/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/pages/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/faq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/src/utils/typography.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/typography.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/static/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/static/img/presto-pay-eligibility.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/presto-pay-eligibility.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/static/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
-              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -93,6 +69,7 @@
         <option value="$PROJECT_DIR$/site/src/pages/faq.js" />
         <option value="$PROJECT_DIR$/site/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/static/admin/config.yml" />
       </list>
     </option>
   </component>
@@ -134,6 +111,22 @@
               <item name="netlify-gatsby-01" type="b2602c69:ProjectViewProjectNode" />
               <item name="netlify-gatsby-01" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="netlify-gatsby-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netlify-gatsby-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netlify-gatsby-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netlify-gatsby-01" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netlify-gatsby-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netlify-gatsby-01" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,7 +138,7 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573021938659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573023091294" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -178,17 +171,18 @@
       <workItem from="1572834475591" duration="272000" />
       <workItem from="1572834964589" duration="4131000" />
       <workItem from="1573019417550" duration="310000" />
-      <workItem from="1573019757167" duration="2006000" />
+      <workItem from="1573019757167" duration="2808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37445000" />
+    <option name="totallyTimeSpent" value="38247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1608" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624521" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2624521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -205,7 +199,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31030703" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31030703" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -382,7 +376,14 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
