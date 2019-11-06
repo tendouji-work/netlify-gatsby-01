@@ -1,0 +1,72 @@
+backend:
+  name: bitbucket
+  repo: wan_chan/presto-poc-chanwan
+  branch: netlify-poc
+  auth_type: implicit
+  app_id: SvasfPshdsS2sE4tXX
+
+media_folder: static/img
+public_folder: /img
+
+publish_mode: editorial_workflow
+
+collections:
+- name: "blog"
+  label: "News"
+  folder: "content/blog"
+  create: true
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #editor:
+  #  preview: false
+  fields:
+  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+  - {label: "Title", name: "title", widget: "string"}
+  - {label: "Description", name: "description", widget: "string"}
+  - {label: "Publish Date", name: "date", widget: "datetime"}
+  - {label: "Featured Image", name: "thumbnail", widget: "image"}
+  - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+  - {label: "Body", name: "body", widget: "markdown"}
+
+- name: "subscriber"
+  label: "Subscribers"
+  folder: "content/subscriber"
+  create: true
+  identifier_field: title
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  editor:
+    preview: false
+  fields:
+  - {label: "Title", name: "title", widget: "hidden"}
+  - {label: "Name", name: "name", widget: "string", required: true}
+  - {label: "Email", name: "email", widget: "string", required: true, pattern: ['([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}', "Email format invalid"]}
+  - {label: "Enabled", name: "enabled", widget: "boolean", default: true}
+  - {label: "Created Date", name: "date", widget: "datetime"}
+
+- name: "pages"
+  label: "Pages"
+  files:
+  - label: "About"
+    name: "about"
+    file: "content/about.yml"
+    fields:
+    - {label: Title, name: title, widget: string}
+    - {label: Description, name: description, widget: markdown}
+    - label: Feature
+      name: feature
+      widget: list
+      fields:
+      - {label: Name, name: name, widget: string}
+      - {label: Description, name: description, widget: string}
+      - {label: Photo, name: photo, widget: image}
+  - label: "FAQ"
+    name: "faq"
+    file: "content/faq.yml"
+    fields:
+    - {label: Title, name: title, widget: string}
+    - {label: Description, name: description, widget: markdown}
+    - label: FAQList
+      name: faqlist
+      widget: list
+      fields:
+      - {label: Question, name: question, widget: string}
+      - {label: Answer, name: answer, widget: string}
