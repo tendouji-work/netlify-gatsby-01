@@ -3,7 +3,7 @@ backend:
   repo: wan_chan/presto-poc-chanwan
   branch: netlify-poc
   auth_type: implicit
-  app_id: SvasfPshdsS2sE4tXX
+  app_id: ncHgq2nqtEcXpb8PuK
 
 media_folder: static/img
 public_folder: /img
