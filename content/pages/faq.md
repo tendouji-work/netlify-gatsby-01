@@ -1,0 +1,14 @@
+---
+title: Frequently Asked Questions
+description: Check here before you ask.
+faqlist:
+  - answer: That.
+    question: What?
+  - answer: There.
+    question: Where?
+  - answer: Then.
+    question: When?
+  - answer: Tho.
+    question: Who?
+---
+
