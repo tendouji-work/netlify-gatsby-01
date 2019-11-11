@@ -11,7 +11,7 @@ class BlogIndex extends React.Component {
         const siteTitle = data.site.siteMetadata.title
         const posts = data.allMarkdownRemark.edges
 
-        console.log(data)
+        console.log('BlogIndex data:', data);
 
         return (
             <Layout location={this.props.location} title={siteTitle}>
