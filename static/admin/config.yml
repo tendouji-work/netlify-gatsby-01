@@ -49,7 +49,7 @@ collections:
   files:
   - label: "About"
     name: "about"
-    file: "content/about.yml"
+    file: "content/pages/about.md"
     fields:
     - {label: Title, name: title, widget: string}
     - {label: Description, name: description, widget: markdown}
@@ -62,7 +62,7 @@ collections:
       - {label: Photo, name: photo, widget: image}
   - label: "FAQ"
     name: "faq"
-    file: "content/faq.yml"
+    file: "content/pages/faq.md"
     fields:
     - {label: Title, name: title, widget: string}
     - {label: Description, name: description, widget: markdown}
